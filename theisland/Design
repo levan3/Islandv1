@@ -1,0 +1,24 @@
+Design
+
+Thing encapsulates every object in island.
+
+Animal, Plant and Water are 3 subclasses under Thing.
+
+Water has no subclass.
+Plant has Grass as its only subclass.
+Carnivore, Herbivore and Omnivore are 3 subclasses under Animal.
+
+Cat belongs to Carnivore.
+Rabbit & worm belong to Herbivore.
+Kiwi, Sparrow, and Rodent belongs to Herbivore.
+
+1. Draw Island, add in random animals, plants and water.
+2. Move animals randomly through moveRandom method.
+3. Move animals randomly & search for food method through tick & smellFood method in Animal.
+	This includes smellFood method in subclass for individual animal's food profile.
+4. Move animals randomly & search for water method through tick2 method in Animal.
+5. Update to Rodent and Sparrow class to avoid Cat.
+6. Add apple tree as a subclass under plant class. update world so apple tree size grow each turn.
+
+
+
